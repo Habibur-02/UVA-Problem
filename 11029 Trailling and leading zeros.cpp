@@ -43,7 +43,7 @@ cin>>n>>k;
 
  double first=pow(10,k*log10(n)-floor(k*log10(n))) * 100.00;
 
- cout<<floor(first)<<"..."<<setw(3)<<setfill('0') <<last<<'\n';
+ cout<<floor(first)<<"..."<<setw(3)<<setfill('0') <<last<<'\n'; //ekhhane setw(3) bujhacche jodi 3 ta digit puron na hoi taile setfill(0) ba 0 diye puron kore dibe;
 
 }
 
